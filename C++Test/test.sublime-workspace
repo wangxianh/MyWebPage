@@ -1,0 +1,809 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tan",
+				"tank"
+			],
+			[
+				"con",
+				"contHeight"
+			],
+			[
+				"ra",
+				"randomx"
+			],
+			[
+				"pla",
+				"planeObj"
+			],
+			[
+				"rand",
+				"randomx"
+			],
+			[
+				"bul",
+				"bulletObj"
+			],
+			[
+				"bullet",
+				"bulletObj"
+			],
+			[
+				"bull",
+				"bullet"
+			],
+			[
+				"co",
+				"contWidth-tankWidth"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"col-md",
+				"col-md-4"
+			],
+			[
+				"marig-",
+				"margin-top"
+			],
+			[
+				"b",
+				"btn-primary"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"has",
+				"hasSec"
+			],
+			[
+				"main",
+				"main-open"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"nav",
+				"nav-open"
+			],
+			[
+				"nav-",
+				"nav-off"
+			],
+			[
+				"na",
+				"nav-open"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"man",
+				"main-open"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"t",
+				"translate()"
+			],
+			[
+				"s",
+				"space-around"
+			],
+			[
+				"felx",
+				"flex-start"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"show",
+				"showNext"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"flex-",
+				"flex-basis"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"jpg",
+				"jpg_bg"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"stye",
+				"stylesheet"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"txet",
+				"textarea"
+			],
+			[
+				"get",
+				"getRandomColor"
+			],
+			[
+				"_",
+				"_left"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"en",
+				"endTime"
+			],
+			[
+				"child",
+				"child-remove"
+			],
+			[
+				"st",
+				"script"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"trasn",
+				"transform"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"sp",
+				"word-spacing"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"change",
+				"ChangeView"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"text-",
+				"text-overflow"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"ans",
+				"answers"
+			],
+			[
+				"rea",
+				"readlines"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"read",
+				"readAnswer"
+			],
+			[
+				"c",
+				"current_edges"
+			],
+			[
+				"nd",
+				"nodes"
+			],
+			[
+				"len",
+				"leng"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fl",
+				"float"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test.cpp",
+			"settings":
+			{
+				"buffer_size": 99,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.sublime-project",
+			"settings":
+			{
+				"buffer_size": 206,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/SetRunC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SetRunC.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/SetRunC.sublime-build",
+					"RunInCommand"
+				]
+			],
+			[
+				"Packages/User/SetRunC.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"last_filter": "sublimegdb",
+		"selected_items":
+		[
+			[
+				"sublimegdb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				" ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Project/WebProject/MyWebPage/C++Test"
+	],
+	"file_history":
+	[
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGDB.sublime-settings",
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/User/SetRunC.sublime-build",
+		"/E/Project/WebProject/MyWebPage/JSTest/removeItem.html",
+		"/E/Project/WebProject/MyWebPage/JSTest/removeItem1.html",
+		"/E/Project/WebProject/MyWebPage/JSTest/append",
+		"/E/Project/WebProject/MyWebPage/JSTest/removeItem.js",
+		"/E/Project/WebProject/MyWebPage/Music/css/style.css",
+		"/E/Project/WebProject/MyWebPage/模块功能/分页/style.css",
+		"/E/Project/WebProject/MyWebPage/坦克游戏/css/style.css",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/Blog/index.html",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/Blog/blog.css",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/Carousel/index.html",
+		"/E/Project/WebProject/MyWebPage/模块功能/分页/pagination.html",
+		"/C/Users/wxh/Desktop/1.cpp",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/Carousel/carousel.css",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/Offcanvas/index.html",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/index.html",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/offcanvas.css",
+		"/E/Project/WebProject/MyWebPage/BootstrapTest/offcanvas.js",
+		"/E/Project/WebProject/MyWebPage/模块功能/滑动菜单栏/js/main.js",
+		"/E/Project/WebProject/MyWebPage/侧滑栏/index.html",
+		"/E/Project/WebProject/MyWebPage/模块功能/滑动菜单栏/index.html",
+		"/E/Project/WebProject/MyWebPage/test1/style.css",
+		"/E/Project/WebProject/MyWebPage/test1/tribute.html",
+		"/E/Project/WebProject/MyWebPage/响应式幻灯片/index.html",
+		"/E/Project/WebProject/MyWebPage/em布局/index.html",
+		"/E/Project/WebProject/MyWebPage/Music/index.html",
+		"/E/Project/WebProject/MyWebPage/Music/js/mF_fancy.js",
+		"/E/Project/WebProject/MyWebPage/Music/css/mF_fancy.css",
+		"/E/Project/WebProject/MyWebPage/test2/Portfolio.html",
+		"/E/Project/WebProject/MyWebPage/test2/style.css",
+		"/E/Project/WebProject/MyWebPage/mytest.html",
+		"/E/Project/WebProject/MyWebPage/test3/dm.js",
+		"/E/Project/WebProject/MyWebPage/test3/testDanMu.html",
+		"/E/Project/WebProject/MyWebPage/test3/danmu.html",
+		"/E/Project/WebProject/MyWebPage/模块功能/ReturnToTop.html",
+		"/E/Project/WebProject/MyWebPage/模块功能/ReturnToTop.css",
+		"/C/Users/wxh/Desktop/1.jpg",
+		"/E/Project/WebProject/freeCodeCamp/test1/tribute.html",
+		"/E/Project/WebProject/freeCodeCamp/test1/style.css",
+		"/E/Project/WebProject/freeCodeCamp/test1/toggle.html",
+		"/C/Users/wxh/AppData/Local/Temp/fbtmp/codepen.io/freeCodeCamp/full/NNvBQW.html",
+		"/C/Users/wxh/AppData/Local/Temp/fbtmp/production_assets.codepen.io/assets/fullpage/fullpage_7d15bada4f500570acb15617393bfee0c8640cce5011e3450f6ecdeb658baefb.css",
+		"/E/Project/VSProject/test4.cpp",
+		"/E/Project/WebProject/CSSTest.html",
+		"/E/Project/WebProject/CSSTest/clearfix.html",
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/F/qq文件/pyunit.py",
+		"/C/Users/wxh/Desktop/te/case.py",
+		"/C/Users/wxh/Desktop/te/pp_wxh.py",
+		"/C/Users/wxh/Desktop/te/test.py",
+		"/F/qq文件/case.py",
+		"/C/Users/wxh/Desktop/te/__init__.py",
+		"/C/Users/wxh/Desktop/te/del.py",
+		"/E/Project/PythonProject/FPP-master/pp_wxh.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/新建文件夹/unittest_primepath/test.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/unittest单元测试翟晓军/unittest单元测试框架/test.py/runtest.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/新建文件夹/unittest_primepath/get_path.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/新建文件夹/unittest_primepath/PrimePath.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/新建文件夹/primepath_test/shiyu_path_txt.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/unittest单元测试翟晓军/unittest单元测试框架/test.py/test3.py",
+		"/F/研究生课程资料/第二学期课程/功能自动化测试框架实践/unittest单元测试翟晓军/unittest单元测试框架/test.py/test1.py",
+		"/E/Project/PythonProject/FPP-master/test.py",
+		"/E/Project/PythonProject/Prime.py",
+		"/E/Project/PythonProject/FPP-master/fpp.py",
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-build",
+		"/E/Project/PythonProject/pptTest/project/model/new_count.py",
+		"/E/Project/PythonProject/pptTest/project/count.py",
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/E/Project/PythonProject/pptTest/project/model/count.py",
+		"/E/Project/PythonProject/pptTest/abnormal.py",
+		"/E/Project/PythonProject/pptTest/imp.py",
+		"/E/Project/PythonProject/pptTest/test.py",
+		"/E/Project/WebProject/Blog/index",
+		"/E/Project/WebProject/Blog/sheet",
+		"/E/Project/WebProject/index",
+		"/E/Project/WebProject/我的博客.html",
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
+		"/E/Project/WebProject/img/banner.jpg",
+		"/C/Users/wxh/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 198.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/SetRunC.sublime-build",
+	"project": "test.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

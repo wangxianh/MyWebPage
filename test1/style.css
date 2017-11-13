@@ -5,6 +5,10 @@
  * @date    2017-09-07 19:30:30
  * @version $Id$
  */
+ *{
+ 	margin:0;
+ 	padding:0;
+ }
  body{
  	margin:0;
  	padding:0;
@@ -14,6 +18,9 @@
  }
  #wrap{
  	width:100%;
+ }
+ ul li{
+ 	list-style: none;
  }
  #head{
  	height:80px;
@@ -166,13 +173,14 @@
 	font-size: 10pt;
 }
 .ChangeView{
-	width:400px;
+	width:300px;
 	height:350px;
 	position: absolute;
 	top: 80px;
 	right: 130px;
 	background-color: #999;
 	color: black;
+	padding: 20px;
 }
 label {  
   cursor: pointer;
@@ -252,4 +260,47 @@ label {
 }
 .link a:hover{
 	background-color: #333;
+}
+
+.slide
+{
+	border: 1px solid #fff;
+    height: 35px;
+    line-height: 50px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+.slide a,.slide a:link{
+	color: white;
+	display: block;
+	width: 50px;
+	height: 35px;
+}
+.slide:hover{
+	background-color: #333;
+}
+.nav-slide{
+	display: none;
+	padding:20px;
+	height:300px;
+	width:200px;
+	background-color: #333;
+	border: 1px solid rgba(0,0,0,0.5);	
+	position: absolute;
+	z-index: 99;
+	top:80px;
+	right:0;
+}
+.nav-slide li{
+	line-height: 50px;
+	font-weight: bold;
+	width:100%;
+	padding-left: 20px;
+}
+.nav-slide li:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.nav-slide li a{
+	color: #fff;
 }

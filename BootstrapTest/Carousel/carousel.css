@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-10-06 16:41:00
+ * @version $Id$
+ */
+.carousel-item >img{
+	height:32rem;
+	background-color:#626769;
+}
+.carousel-caption{
+	bottom: 6rem;
+}
+.setcss{
+	margin-top: 5rem;
+}
+.radius{
+	width:8rem;
+	height:8rem;
+	margin:0 auto;
+	border-radius: 50%;
+	background: #333;
+}
+.setpic{
+	width:450px;
+	height:350px;
+}
+.setmargin{
+	margin-top:5rem;
+}

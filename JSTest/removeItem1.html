@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <script>
+	function removeWithoutCopy(arr, item) {
+		var i=1;
+		arr.forEach(function(it,index,array){
+	        if(it==item){
+	        	while(array[index+i]==item){
+	        		i++;
+	        	}
+	            array.splice(index,i);
+	        }
+    	});
+    	return arr;
+	}
+	var a=[1, 2, 2,2,2, 3, 4, 2, 2];
+	var item=2;
+	alert(removeWithoutCopy(a,item));
+    </script>
+</body>
+</html>

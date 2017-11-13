@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <script>
+	function duplicates(arr) {
+	var result=[];
+    for(var i=0;i<arr.length;i++){
+     if(arr.indexOf(arr[i],i)!=arr.lastIndexOf(arr[i]))
+     {
+     	if(result.indexOf(arr[i])==-1){
+     		result.push(arr[i]);
+     	}
+	   
+	 }
+    } 
+    return result;	
+	}
+
+	var a=[1, 2, 2,2,2, 3, 4, 2, 2,3];
+	alert(duplicates(a));
+    </script>
+</body>
+</html>

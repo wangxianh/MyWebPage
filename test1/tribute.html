@@ -7,6 +7,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <link href="style.css" rel="stylesheet">
+<script src="../jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -24,6 +25,20 @@
     				A PEN BY freeCodeCamp
     			</div>
     		</div>
+            <div class="header slide"><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
+            </a></div>
+            <ul class="nav-slide">
+                <li>
+                    <a href="#">HTML</a>
+                </li>
+                <li>
+                    <a href="#">CSS</a>
+                </li>
+                <li>
+                    <a href="#">JS</a>
+                </li>
+            </ul>
     		<div class="header second">
     			<a href="#"><button>Fork</button></a>
     		</div>
@@ -43,8 +58,7 @@
 				<li class="link"><a href="#">.html</a>
 				<a href="#">.css</a>
 				<a href="#">.js</a></li>
-    		</ul>
-    		
+    		</ul>	
     	</div>
     	<div id="content">
     		<div class="sec_top">
@@ -77,4 +91,11 @@
     	<div id="footer">Written and coded by <a href="#">Quincy Larson</a>.</div>
     </div>
 </body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".slide").click(function(){
+            $(".nav-slide").fadeToggle();
+        });
+    });
+</script>
 </html>

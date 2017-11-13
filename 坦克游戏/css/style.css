@@ -1,0 +1,53 @@
+/*
+writer:wxh;
+date:2017/10/14;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrap{
+	width:40em;
+	margin:0 auto;
+}
+
+.content{
+	position: relative;
+	border: 1px solid #000;
+	height:30em;
+	margin-top: 2em;
+}
+.tank{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width:100px;
+	height:50px;
+	background:url("../img/tank.svg") no-repeat;
+}
+.button button{
+	padding: 1.2em;
+	width:7em;
+	height:3em;
+	line-height: 0.9em;
+	margin:2em 4em;
+	border:1px solid rgb(230, 80, 30);
+	background-color: white;
+
+}
+.plane{
+	position:absolute;
+	background:url("../img/plane1.svg");
+	transform:rotate(180deg);
+	width:50px;
+	height:50px;
+	
+}
+.bullet{
+	position: absolute;
+	background:url("../img/bullet.svg");
+	width:50px;
+	height:50px;
+}
