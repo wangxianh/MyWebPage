@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>原生js实现轮播图</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#content{
+		width:60%;
+		width:800px;
+		height: 500px;
+		margin:20px auto;
+	}
+	.image img{
+		width:800px;
+		height: 500px;
+		display: none;
+	}
+	#content .active{
+		display: block;
+		
+	}
+	.round{
+		width:220px;
+		margin:-40px auto;
+	}
+	.round span{
+		display: inline-block;
+		width:15px;
+		height:15px;
+		border-radius: 50%;
+		border:2px solid orange;
+		margin-right:30px;
+	}
+	.round .checked{
+		background-color: orange;
+	}
+	.arrow{
+		position: absolute;
+    margin: auto;
+    /* left: 0; */
+    /* right: 0; */
+    top: 0;
+    bottom: 0;
+    /* overflow: hidden; */
+    width: 50px;
+    height: 50px;
+	}
+	.arrow .previous{
+		position: relative;
+		width: 20px;
+		height: 20px;
+		left:20px;
+		transform: rotate(45deg);
+		border: 2px solid;
+		border-color: transparent transparent #fff #fff;
+	}
+	.arrow .next{
+		position: relative;
+		width:20px;
+		height:20px;
+		right: 20px;
+		transform: rotate(45deg);
+		border:2px solid;
+		border-color: #fff #fff transparent transparent;
+	}
+</style>
+<body>
+<div id="content">
+	<div class="image">
+		<img class="active" src="img/banner.jpg">
+   		<img src="img/pic03.jpg">
+   		<img src="img/pic02.jpg">
+   		<img src="img/pic01.jpg">
+	</div>
+	<div class="round">
+		<span class="checked"></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="arrow">
+		<div class="previous"></div>
+		<div class="next"></div>
+	</div>
+</div>
+</body>
+</html>
