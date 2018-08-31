@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	a{
+		color: black;
+	}
+	.showpic img{
+		width:800px;
+		height: 500px;
+		margin: 0 auto;
+		display: none;
+		margin-top: 20px
+	}
+	img.active{
+		display: block;
+		animation: fadeImg 0.8;
+	}
+	.slider-nav ul{
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+	.slider-nav{
+		position: absolute;
+		top: 250px;
+		
+	}
+	.left{
+		position: absolute;
+		left: 100px;
+	}
+	.slider-nav .arrow{
+		flex:0 0 90%;
+	}
+	.slider-nav a{
+		flex-basis: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.arrow{
+		display: inline-block;
+	}
+	.right{
+		left: 1200px;
+    	position: absolute;
+	}
+	@-webkit-keyframes fadeImg{
+		from{
+			opacity:0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+	@-moz-keyframes fadeImg{
+		from{
+			opacity:0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+	@keyframes fadeImg{
+		from{
+			opacity:0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+</style>
+<script type="text/javascript">
+	window.onload=function(){
+		var itemsList=document.querySelectorAll('img');
+	var len=itemsList.length;
+	var previous=document.querySelector('.previous');
+	var next=document.querySelector('.next');
+	var n=0;
+	previous.addEventListener('click',showPrevious);
+	next.addEventListener('click',showNext);
+	function showPrevious(){
+		itemsList[n].classList.remove('active');
+		if(n>0){
+			n--;
+		}else{
+			n=len-1;
+		}
+		itemsList[n].classList.add('active');
+	}
+	function showNext(){
+		itemsList[n].classList.remove('active');
+		if(n<len-1)
+		{
+			n++;
+		}else{
+			n=0;
+		}
+		itemsList[n].classList.add('active');
+	}
+	}
+	
+	
+</script>
+</head>
+<body>
+   <div class="showpic">
+   	<img class="active" src="img/banner.jpg">
+   	<img src="img/pic01.jpg">
+   	<img src="img/pic02.jpg">
+   	<img src="img/pic03.jpg">
+   </div> 
+   <nav class="slider-nav">
+	<ul>
+		<li class="arrow left">
+			<a class="previous" id="previous" href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="20" y1="12" x2="4" y2="12"></line><polyline points="10 18 4 12 10 6"></polyline></svg>
+			</a>
+		</li>
+		<li class="arrow right">
+			<a class="next" id="next" href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="4" y1="12" x2="20" y2="12"></line><polyline points="14 6 20 12 14 18"></polyline></svg>
+			</a>
+		</li>
+   </nav>
+</body>
+</html>

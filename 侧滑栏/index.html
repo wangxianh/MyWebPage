@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>侧滑栏</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="../jquery-3.2.1.min.js"></script>
+</head>
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+	a,a:link{
+		color:white;
+		text-decoration: none;
+	}
+	ul li{
+		list-style: none;
+	}
+	main{
+		background-color: #efefef;
+		width: 100%;
+	}
+	.header{
+		height:3.7em;
+		background-color: #71CCEB;
+	}
+	.menu{
+		height:1.5em;
+		line-height: 1.5em;
+		width:4em;
+		padding: 1em;
+		border:0.0625em solid white;
+		color: white;
+		font-weight:bold;
+		display: flex;
+		align-items: flex-start;
+	}
+	.menu .icon{
+		margin-left: 0.3em;
+	}
+	nav{
+		position: absolute;
+		top:0em;
+		left:-16em;
+		width:16em;
+		height:100%;
+		background-color: #09779C;
+	}
+	.first{
+		padding: 1.25em;
+	}
+	ul li{
+		padding:0.625em;
+		line-height:2em;
+		height: 2em;
+	}
+	ul li:hover{
+		background-color: #94D5EB;
+	}
+	.first li{
+		font-weight: bold;
+	}
+	.second li{
+		color: white;
+		line-height:1.625em;
+		height: 1.625em;
+	}
+	.hasSec{
+		color: white;
+	}
+	.hasSec a{
+		display: flex;
+		justify-content: space-between;
+		color: white;
+	}
+	.hasSec> a::after{
+		content: "";
+		display: block;
+		width:15px;
+		background: url("./chevron-right.svg") no-repeat center center;
+		
+	}
+	.hasSec> .submenu-open a::after{
+		transform: rotate(90deg);
+		transition: transform 0.2s;
+	}
+	.hasSec .sec{
+		margin-left: 1.5em;
+		display: none;
+	}
+	.main-open{
+		transform: translate(16em,0);
+		transition:transform 1s;
+	}
+	.main-off{
+		transform: translate(0em,0);
+		transition:transform 1s;
+	}
+</style>
+<body>
+    <div id="wrap">
+		<div class="header">
+			<div class="menu"><span>菜单</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg></div>
+		</div>
+    	<main>
+    	</main>
+    	<nav>
+    		<ul class="first">
+    			<li><a href="#">HTML</a></li>
+    			<li><a href="#">CSS</a></li>
+    			<li class="hasSec"><a href="#">JS</a>
+					<ul class="sec">
+						<li><a href="#">Jqury</a></li>
+						<li><a href="#">Vue.js</a></li>
+						<li><a href="#">Node.js</a></li>
+					</ul>
+    			</li>
+    			<li class="hasSec"><a href="#">JS</a>
+					<ul class="sec">
+						<li><a href="#">Jqury</a></li>
+						<li><a href="#">Vue.js</a></li>
+						<li><a href="#">Node.js</a></li>
+					</ul>
+    			</li>
+    		</ul>
+    	</nav>
+    </div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("main").click(function(){
+			if($("#wrap").hasClass("main-open")){
+				$("#wrap").removeClass("main-open").addClass("main-off");	
+			}
+		});
+		$(".menu").click(function(){
+			/*if($("main").hasClass("main-open")){
+				$("nav").removeClass("nav-open").addClass("nav-off");
+				$("main").removeClass("main-open").addClass("main-off");
+			 }else{
+				$("main").addClass("main-open").removeClass("main-off");
+				$("nav").addClass("nav-open").removeClass("nav-off");
+			}*/
+			if($("#wrap").hasClass("main-open")){
+				$("#wrap").removeClass("main-open").addClass("main-off");
+			}else{
+				$("#wrap").addClass("main-open").removeClass("main-off");
+			}	
+		});
+
+		$(".hasSec").children("a").click(function(){
+			/*var tx1=$("<li></li>").text("Jqury");
+			var tx2="<li>Vue.js</li>"
+			var tx3=document.createElement("li");
+			tx3.innerHTML="Node.js";
+			$(".sec").append(tx1,tx2,tx3);*/
+			$(".sec").slideToggle(200);
+			$(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(200).end().
+		parent('.item-has-children').siblings('.item-has-children').
+		children('a').removeClass('submenu-open').next('.sub-menu').slideUp(200);
+		});
+
+
+		
+
+		
+	});
+</script>
+</html>
